@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "theme": "halloween",
+    "title_ru": "Хэллоуин",
+    "title_en": "Halloween",
+    "prompt_ru": "Английская осенняя ночь, резной тыквенный светильник с зловещей гримасой, плотный туман над заброшенным кладбищем, бледная луна сквозь разрывы туч, стилизованная цифровая иллюстрация в стиле Low Poly, тёплые оранжевые и холодные фиолетовые оттенки, детализированная композиция",
+    "prompt_en": "An English autumn night, a carved pumpkin lantern with a sinister grin, dense fog over an abandoned graveyard, a pale moon through the breaks in the clouds, stylized digital illustration in a low poly style, warm orange and cold purple tones, detailed composition",
+    "preview_url": "previews/halloween.jpg",
+    "tags": ["хэллоуин", "осень", "страшный", "тыква", "horror"]
+  },
+  {
+    "id": 2,
+    "theme": "cyberpunk",
+    "title_ru": "Киберпанк",
+    "title_en": "Cyberpunk",
+    "prompt_ru": "Футуристический киберпанк-город ночью под проливным дождём, неоновые розовые и голубые огни, голографическая реклама в воздухе, летающие транспортные средства, мокрый отражённый асфальт, мрачная атмосфера киберпанка, цифровая иллюстрация, детально",
+    "prompt_en": "A futuristic cyberpunk city at night in pouring rain, neon pink and cyan lights, holographic advertisements floating in the air, flying vehicles, wet reflective asphalt, dark cyberpunk atmosphere, digital illustration, detailed",
+    "preview_url": "previews/cyberpunk.jpg",
+    "tags": ["киберпанк", "неон", "футуризм", "город", "cyberpunk"]
+  },
+  {
+    "id": 3,
+    "theme": "fantasy",
+    "title_ru": "Фэнтези",
+    "title_en": "Fantasy",
+    "prompt_ru": "Магический замок, парящий над туманными горами под звёздным небом, светящиеся магические руны в воздухе, эпическое фэнтези-настроение, тёплый и холодный магический свет, цифровая иллюстрация, детализированная композиция",
+    "prompt_en": "A magical castle floating above misty mountains under a starry sky, glowing magical runes in the air, epic fantasy mood, warm and cold magical light, digital illustration, detailed composition",
+    "preview_url": "previews/fantasy.jpg",
+    "tags": ["фэнтези", "замок", "магия", "горы", "fantasy"]
+  },
+  {
+    "id": 4,
+    "theme": "steampunk",
+    "title_ru": "Стимпанк",
+    "title_en": "Steampunk",
+    "prompt_ru": "Орнаментальные латунные и медные шестерёнки, паровые трубы, массивная часовая механизмная конструкция викторианской эпохи, тёплые сепиатоновые оттенки, викторианский индустриальный стиль, интригующие детали, цифровая иллюстрация",
+    "prompt_en": "Ornate brass and copper gears, steam pipes, a massive clockwork mechanism from the Victorian era, warm sepia tones, Victorian industrial aesthetic, intriguing details, digital illustration",
+    "preview_url": "previews/steampunk.jpg",
+    "tags": ["стимпанк", "браспасс", "механика", "викторианство", "steampunk"]
+  },
+  {
+    "id": 5,
+    "theme": "gothic",
+    "title_ru": "Готика",
+    "title_en": "Gothic",
+    "prompt_ru": "Мрачный готический собор с высокими шпилями под грозовым небом, стая летучих мышей, бледная луна, глубокие чёрный и карминный оттенки, sombre мрачная атмосфера, цифровая иллюстрация, детализированная композиция",
+    "prompt_en": "A dark gothic cathedral with tall spires under a stormy sky, a flock of bats, a pale moon, deep black and crimson tones, sombre moody atmosphere, digital illustration, detailed composition",
+    "preview_url": "previews/gothic.jpg",
+    "tags": ["готика", "собор", "мрачный", "баты", "gothic"]
+  },
+  {
+    "id": 6,
+    "theme": "sci_fi",
+    "title_ru": "Научная фантастика",
+    "title_en": "Sci-Fi",
+    "prompt_ru": "Футуристический гладкий космический корабль, парящий над чужой планетой с двумя лунами, обширное звёздное поле, светящиеся синие двигатели, оставляющие светящийся след, эпический космический масштаб, цифровая иллюстрация, детально",
+    "prompt_en": "A futuristic sleek spaceship hovering over an alien planet with two moons, a vast starfield, glowing blue engines leaving a luminous trail, epic cosmic scale, digital illustration, detailed",
+    "preview_url": "previews/scifi.jpg",
+    "tags": ["фантастика", "космос", "корабль", "планета", "sci-fi"]
+  },
+  {
+    "id": 7,
+    "theme": "anime",
+    "title_ru": "Аниме",
+    "title_en": "Anime",
+    "prompt_ru": "Яркая аниме-стильная портретная иллюстрация девушки с большими выразительными глазами, мягкие пастельные тона, лепестки сакуры в воздухе, живой целлюлозный стиль, цифровая иллюстрация, детализированная",
+    "prompt_en": "A vibrant anime-style portrait illustration of a girl with large expressive eyes, soft pastel tones, cherry blossom petals floating in the air, lively cel-shaded style, digital illustration, detailed",
+    "preview_url": "previews/anime.jpg",
+    "tags": ["аниме", "портрет", "сакура", "пастель", "anime"]
+  },
+  {
+    "id": 8,
+    "theme": "nature",
+    "title_ru": "Природа",
+    "title_en": "Nature",
+    "prompt_ru": "Умиротворённый зачарованный лес с светящимися грибами, солнечный свет сквозь туман, небольшой водопад, сочная зелень, магическая эфемерная атмосфера, цифровая иллюстрация, детализированная композиция",
+    "prompt_en": "A serene enchanted forest with glowing mushrooms, sunlight filtering through the mist, a small waterfall, lush green foliage, magical ethereal atmosphere, digital illustration, detailed composition",
+    "preview_url": "previews/nature.jpg",
+    "tags": ["природа", "лес", "магия", "водопад", "nature"]
+  }
+]
