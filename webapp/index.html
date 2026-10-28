@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0f1a">
+  <title>Photo Generator</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="header-titles">
+        <h1>🎨 Photo Generator</h1>
+        <p class="subtitle">Выберите тему — и сгенерируйте изображение</p>
+      </div>
+      <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Переключить язык">RU</button>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="search-row">
+      <input id="search" type="search" placeholder="🔍 Поиск темы…" autocomplete="off" enterkeyhint="search">
+    </div>
+
+    <section id="gallery" class="gallery" aria-label="Галерея превью"></section>
+
+    <section class="editor">
+      <div class="editor-head">
+        <label for="prompt">Промпт</label>
+        <span id="counter" class="counter">0 / 2000</span>
+      </div>
+      <textarea id="prompt" rows="5" maxlength="2400"
+                placeholder="Нажмите на карточку темы, чтобы подставить промпт…"></textarea>
+      <div class="editor-actions">
+        <button id="random" class="btn btn-ghost" type="button">🎲 Случайный</button>
+        <button id="copy" class="btn btn-ghost" type="button">📋 Скопировать</button>
+        <button id="generate" class="btn btn-primary" type="button">✨ Сгенерировать</button>
+      </div>
+      <p id="status" class="status" role="status"></p>
+    </section>
+
+    <section id="result" class="result" hidden>
+      <div class="result-head">
+        <h2>Готовое изображение</h2>
+        <button id="close-result" class="btn btn-ghost btn-icon" type="button" aria-label="Закрыть">✕</button>
+      </div>
+      <img id="result-img" alt="Сгенерированное изображение">
+      <div class="result-actions">
+        <button id="download" class="btn btn-primary" type="button">⬇️ Сохранить</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="notice" class="notice" hidden>
+    <span id="notice-text"></span>
+    <button id="notice-close" class="notice-close" type="button" aria-label="Закрыть">✕</button>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
